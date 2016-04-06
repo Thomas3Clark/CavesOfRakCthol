@@ -1,0 +1,55 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Orangice",
+    "enableMultiJS": true,
+    "longName": "Dungeon++",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/PixelOperator16.ttf",
+                "name": "FONT_PIXELOPERATOR_16",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "images/GoUp.png",
+                "name": "IMAGE_GO_UP",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/GoRight.png",
+                "name": "IMAGE_GO_RIGHT",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/GoLeft.png",
+                "name": "IMAGE_GO_LEFT",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/GoForward.png",
+                "name": "IMAGE_GO_FORWARD",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Dungeon++",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "345bfd9e-537a-4282-aa3b-49bbe6a0f057",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
