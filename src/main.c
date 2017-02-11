@@ -107,7 +107,7 @@ static void update_hp_text() {
 static void update_stat_text(int event) {
 	switch(event) {
 		case 0:
-			strcpy(statbuf, "Attacked");
+			strcpy(statbuf, "Attacked by Grolims");
 			break;
 		case 1:
 			strcpy(statbuf, "Healed");
@@ -116,7 +116,7 @@ static void update_stat_text(int event) {
 			strcpy(statbuf, "New Floor");
 			break;
 		case 3:
-			strcpy(statbuf, "You Died");
+			strcpy(statbuf, "You were found by Grolims and sacrificed");
 			break;
 	}
 	text_layer_set_text(s_status_layer, statbuf);
@@ -134,7 +134,7 @@ static int rnum;
 
 static void spawnEnemy() {
 	rnum = rand() % 6;
-	APP_LOG(APP_LOG_LEVEL_DEBUG, "Encountered Enemy");
+	APP_LOG(APP_LOG_LEVEL_DEBUG, "Met Grolim");
 	APP_LOG(APP_LOG_LEVEL_DEBUG, "Exp: %d", s_exp);
 	s_exp += 1 + rnum * s_floor;
 	int damage = 2 * (1 + rnum * s_floor);
