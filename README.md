@@ -1,2 +1,2 @@
-# DunegonPlusPlus
-A dungeon for your pebble watch
+# Caves of Rak Cthol
+A simple dungeon crawler game based on The Belgariad for your pebble watch
