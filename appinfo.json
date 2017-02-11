@@ -3,9 +3,9 @@
     "capabilities": [
         ""
     ],
-    "companyName": "Orangice",
+    "companyName": "Clark Industries",
     "enableMultiJS": true,
-    "longName": "Dungeon++",
+    "longName": "Caves of Rak Cthol",
     "projectType": "native",
     "resources": {
         "media": [
@@ -42,7 +42,7 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "Dungeon++",
+    "shortName": "Rak Cthol",
     "targetPlatforms": [
         "aplite",
         "basalt"
