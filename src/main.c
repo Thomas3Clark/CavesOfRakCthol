@@ -107,16 +107,16 @@ static void update_hp_text() {
 static void update_stat_text(int event) {
 	switch(event) {
 		case 0:
-			strcpy(statbuf, "Attacked by Grolims");
+			strcpy(statbuf, "Grolim Attack");
 			break;
 		case 1:
 			strcpy(statbuf, "Healed");
 			break;
 		case 2:
-			strcpy(statbuf, "New Floor");
+			strcpy(statbuf, "New Gallery");
 			break;
 		case 3:
-			strcpy(statbuf, "You were found by Grolims and sacrificed");
+			strcpy(statbuf, "Killed by Grolims");
 			break;
 	}
 	text_layer_set_text(s_status_layer, statbuf);
